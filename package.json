@@ -9,7 +9,8 @@
     "build": "cd client && vite build",
     "build:client": "cd client && vite build",
     "preview": "cd client && vite preview",
-    "check": "tsc"
+    "check": "tsc",
+    "postinstall": "chmod -R +x node_modules/.bin"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
